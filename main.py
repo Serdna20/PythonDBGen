@@ -1,7 +1,9 @@
 import json
 from fileManagement.file import fileExists
+from lines.lines import headers
+
 # Loads the required data
-data = json.load(open('data copy.json'))["newFileData"]
+data = json.load(open('data.json'))["newFileData"]
 
 # True -> Creates a new file, False -> May cause data lost
 changeFileName = True
@@ -13,5 +15,10 @@ if changeFileName:
 else:
     fileName = data["name"]
 
-newFile = open((fileName+".csv"), 'w')
+newFile = open((fileName+".csv"), 'a')
+newFile.write(headers(data))
+
+
+
+
 newFile.close()
