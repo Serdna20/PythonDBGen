@@ -1,0 +1,16 @@
+{  
+    "newFileData": {  
+        "name": "",
+        "lines": 20,
+        "keyStrings": 4,
+        "data": [
+            {"name": "Tiendas"},
+            {"name": "Nombres",
+                "data": ["Pedro", "Carlos", "Charlotte", "Amelia"]
+            },
+            {"name": "Productos",
+                "data": ["Producto 1", "Producto 2", "Producto 3"]
+            }
+        ]
+    }
+}
