@@ -1,0 +1,15 @@
+{  
+    "newFileData": {  
+        "name": "DataBase",
+        "lines": 5,        
+        "data": {
+            "normalLists": [
+                {
+                    "name": "Tiempo",
+                    "type": "ranTime",
+                    "values": ["00:20:10", "00:30:45"]
+                }
+            ]
+        }
+    }
+}

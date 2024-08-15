@@ -1,6 +1,6 @@
 import json
 from fileManagement.file import fileExists
-from lines.lines import headers
+from lines.lines import headers, content
 
 # Loads the required data
 data = json.load(open('data.json'))["newFileData"]
@@ -18,6 +18,8 @@ else:
 newFile = open((fileName+".csv"), 'a')
 newFile.write(headers(data))
 
+for i in range(0, data["lines"]):
+    content(data)
 
 
 

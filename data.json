@@ -27,6 +27,11 @@
                 {
                     "name": "Tipo de cliente",
                     "values": ["Venta Online", "Exportación", "Presencial"]
+                },
+                {
+                    "name": "Tiempo",
+                    "type": "ranTime",
+                    "values": ["00:20:10", "00:30:45"]
                 }
             ]
         }

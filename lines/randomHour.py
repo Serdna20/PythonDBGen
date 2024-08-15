@@ -13,4 +13,4 @@ def randomTime(limits):
     minSec, maxSec = timeSeconds(minT), timeSeconds(maxT)
     return str(datetime.timedelta(seconds=random.randint(minSec, maxSec)))
     
-randomTime(["00:20:10", "00:30:45"])
+# randomTime(["00:20:10", "00:30:45"])
